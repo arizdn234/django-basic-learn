@@ -70,18 +70,18 @@
 ```
 
 > [!NOTE]
-> kemungkinan cara pembuatan model bisa berubah, jadi lebih baik cek dulu di [Database setup](https://docs.djangoproject.com/en/4.2/intro/tutorial02/)
+> kemungkinan cara pembuatan model bisa berubah, jadi lebih baik cek dulu di dokumentasinya -> [Database setup](https://docs.djangoproject.com/en/4.2/intro/tutorial02/)
 
 ## Inisiasi view dan form
 
 1. Buat template view project di `'project > templates > site > index.html'`
 2. Daftarkan template ke django `'project > settings.py > TEMPLATES'`
-3. Buat template view app di `'app > templates > exampleApp > index.html'`
+3. Buat template view app di `'app > templates > app > index.html'`
 4. Buat form jika membutuhkan form di `'app > forms.py'`
 5. Inisiasi template view dan form di `'app > views.py'`
 6. Jangan lupa masukkan viewsnya ke `'app > urls.py > urlpatterns'`
    > [!NOTE]
-   > kemungkinan cara pembuatan view bisa berubah, jadi lebih baik cek dulu di [Create view](https://docs.djangoproject.com/en/4.2/intro/tutorial03/)
+   > kemungkinan cara pembuatan view bisa berubah, jadi lebih baik cek dulu di dokumentasinya -> [Create view](https://docs.djangoproject.com/en/4.2/intro/tutorial03/)
 
 ## Inisiasi admin panel
 
@@ -93,7 +93,7 @@
 ```
 
 > [!NOTE]
-> kemungkinan cara pembuatan admin panel bisa berubah, jadi lebih baik cek dulu di [Admin setup](https://docs.djangoproject.com/en/4.2/intro/tutorial02/)
+> kemungkinan cara pembuatan admin panel bisa berubah, jadi lebih baik cek dulu di dokumentasinya -> [Admin setup](https://docs.djangoproject.com/en/4.2/intro/tutorial02/)
 
 ## Daftar list command
 
