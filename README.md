@@ -11,7 +11,7 @@
 ```
 
 > [!NOTE]
-> kemungkinan langkah instalasi Django bisa berubah, jadi lebih baik cek dulu di dokumentasinya -> [How to install Django?](https://docs.djangoproject.com/en/topics/install/)
+> kemungkinan langkah instalasi Django bisa berubah, jadi lebih baik cek dulu di dokumentasinya -> [How to install Django?](https://docs.djangoproject.com/en/4.2/intro/install/)
 
 ## Setup awal
 
