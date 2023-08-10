@@ -1,7 +1,7 @@
 # **Markdown Repeater for Django 4.2.2 project**
 
-[!IMPORTANT]
-command di bawah ini berdasarkan pemakaian saya di terminal powershell OS windows, dan pastinya command akan berbeda jika menggunakan terminal dan OS lain (tapi masih mirip). Tetapi urutan langkahnya masih bisa diimplementasikan
+> [!IMPORTANT]
+> command di bawah ini berdasarkan pemakaian saya di terminal powershell OS windows, dan pastinya command akan berbeda jika menggunakan terminal dan OS lain (tapi masih mirip). Tetapi urutan langkahnya masih bisa diimplementasikan
 
 ## Instalasi
 
