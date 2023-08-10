@@ -1,5 +1,8 @@
 # **Markdown Repeater for Django 4.2.2 project**
 
+> [!NOTE]
+> command di bawah ini berdasarkan pemakaian saya di terminal powershell OS windows, dan pastinya command akan berbeda jika menggunakan terminal dan OS lain (tapi masih mirip). Tetapi urutan langkahnya masih bisa diimplementasikan
+
 ## Instalasi
 
 1. Instal Python | (download lalu instal)
@@ -13,7 +16,55 @@
 > [!NOTE]
 > kemungkinan langkah instalasi Django bisa berubah, jadi lebih baik cek dulu di dokumentasinya -> [How to install Django?](https://docs.djangoproject.com/en/4.2/intro/install/)
 
-## Setup awal
+## Setup awal 
+
+### Dengan Virtual Environment (venv)
+
+1. Inisiasi project dengan membuat folder dengan 'nama_project' ->
+
+```sh
+    mkdir nama_project
+```
+
+2. Ubah lokasi ke direktori project ->
+
+```sh
+    cd nama_project
+```
+3. Membuat venv ->
+
+```sh
+    python -m virtualenv venv
+```
+4. Mengaktifkan venv ->
+
+```sh
+    .\\venv\Scripts\activate
+```
+5. Instal Django di venv ->
+
+```sh
+    python -m pip install Django
+```
+6. Inisiasi Framework Django ke project ->
+
+```'sh
+    django-admin startproject project .
+```
+
+4. Inisiasi App ke project ->
+
+```sh
+    python manage.py startapp app
+```
+
+5. Test aplikasi dengan menjalankan server ->
+
+```sh
+    python manage.py runserver
+```
+
+### Tanpa Virtual Environment (venv)
 
 1. Inisiasi project dengan membuat folder dengan 'nama_project' ->
 
@@ -50,7 +101,7 @@
 
 ## Inisiasi App
 
-1. Setup applikasi yang telah dibuat di `'project > settings.py > INSTALLED_APPS'`
+1. Setup aplikasi yang telah dibuat di `'project > settings.py > INSTALLED_APPS'`
 2. Daftarkan url app ke project `'project > urls.py > urlpatterns'`
 
 ## Inisiasi model
