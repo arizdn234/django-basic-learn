@@ -131,8 +131,8 @@
 4. Buat form jika membutuhkan form di `'app > forms.py'`
 5. Inisiasi template view dan form di `'app > views.py'`
 6. Jangan lupa masukkan viewsnya ke url di `'app > urls.py > urlpatterns'`
-   > [!NOTE]
-   > kemungkinan cara pembuatan view bisa berubah, jadi lebih baik cek dulu di dokumentasinya -> [Create view](https://docs.djangoproject.com/en/4.2/intro/tutorial03/)
+> [!NOTE]
+> kemungkinan cara pembuatan view bisa berubah, jadi lebih baik cek dulu di dokumentasinya -> [Create view](https://docs.djangoproject.com/en/4.2/intro/tutorial03/)
 
 ## Inisiasi admin panel
 
