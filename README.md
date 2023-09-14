@@ -7,10 +7,15 @@
 
 1. Instal Python | (download lalu instal)
 2. Instal Pip | (umumnya sudah terinstal jika sudah instal python)
-3. Instal Django | gunakan terminal ->
+3. Instal Django | jika ingin dengan venv maka ini bisa dilewati | gunakan terminal ->
 
 ```sh
     pip install Django
+```
+4. Instal virtualenv | gunakan terminal ->
+
+```sh
+    pip install virtualenv
 ```
 
 > [!NOTE]
@@ -158,3 +163,6 @@
 | `python manage.py migrate`          | checkout database             |
 | `python manage.py createsuperuser`  | membuat superuser             |
 | `python manage.py runserver`        | menjalankan server            |
+| `python -m virtualenv venv`         | membuat venv                  |
+| `.\\venv\Scripts\activate`          | mengaktifkan venv             |
+| `deactivate`                        | mematikan venv                |
