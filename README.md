@@ -166,3 +166,6 @@
 | `python -m virtualenv venv`         | membuat venv                  |
 | `.\\venv\Scripts\activate`          | mengaktifkan venv             |
 | `deactivate`                        | mematikan venv                |
+| `pip list`                          | memuat semua packages         |
+| `pip freeze`                        | memuat semua packages         |
+| `pip freeze > requirements.txt`     | mencetak list pkg ke file.txt |
