@@ -1,7 +1,7 @@
 # **Markdown Repeater untuk Django 4.2.2 project**
 
 > [!IMPORTANT]
-> command di bawah ini berdasarkan pemakaian saya di terminal powershell OS windows, dan pastinya command akan berbeda jika menggunakan terminal dan OS lain (tapi masih mirip). Tetapi urutan langkahnya masih bisa diimplementasikan
+> command di bawah ini berdasarkan pemakaian saya di terminal powershell OS windows dan terminal OS linux mint, dan juga pastinya command akan berbeda jika menggunakan terminal dan OS lain (tapi masih mirip). Tetapi urutan langkahnya masih bisa diimplementasikan
 
 ## Instalasi
 
@@ -37,19 +37,35 @@
     cd nama_project
 ```
 3. Membuat venv ->
-
+- windows
 ```sh
     python -m virtualenv venv
 ```
+- linux
+```sh
+    python3 -m virtualenv venv
+```
 4. Mengaktifkan venv ->
-
+- windows
 ```sh
     .\\venv\Scripts\activate
 ```
+- linux
+```sh
+    source venv/bin/activate
+```
+- to deactivate venv -> windows & linux
+```sh
+    deactivate
+```
 5. Instal Django di venv ->
-
+- windows
 ```sh
     python -m pip install Django
+```
+- linux
+```sh
+    python3 -m pip install Django
 ```
 6. Inisiasi Framework Django ke project ->
 
@@ -58,15 +74,23 @@
 ```
 
 4. Inisiasi App ke project ->
-
+- windows
 ```sh
     python manage.py startapp app
 ```
+- linux
+```sh
+    python3 manage.py startapp app
+```
 
 5. Test aplikasi dengan menjalankan server ->
-
+- windows
 ```sh
     python manage.py runserver
+```
+- linux
+```sh
+    python3 manage.py runserver
 ```
 
 ### Tanpa Virtual Environment (venv)
